@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ccc.dao.sqlMapper.UserMapper">
+
+    <resultMap id="user" type="com.ccc.User">
+        <id property="id" column="id"/>
+        <result property="userName" column="user_name"/>
+        <result property="password" column="user_password"/>
+        <result property="roleId" column="role_id"/>
+        <result property="createdBy" column="created_by"/>
+        <result property="createdTime" column="created_time"/>
+        <result property="updatedBy" column="updated_by"/>
+        <result property="updatedTime" column="updated_time"/>
+    </resultMap>
+
+    <sql id="basicColumn">id,user_name,user_password,role_id,created_by,created_time,updated_by,updated_time</sql>
+
+    <select id="getUserList" resultMap="user">
+        select <include refid="basicColumn" /> from m_user;
+    </select>
+</mapper>
