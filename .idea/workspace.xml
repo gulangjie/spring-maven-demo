@@ -10,18 +10,7 @@
       <change beforePath="$PROJECT_DIR$/spring-maven-web/spring-maven-web.iml" afterPath="$PROJECT_DIR$/spring-maven-web/spring-maven-web.iml" />
     </list>
     <list default="true" id="09411131-015d-43ea-a5cb-e8d6acfcf4b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/spring-maven-common/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spring-maven-common/src/main/java/com/ccc/util/DateUtils.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/spring-maven-dao/pom.xml" afterPath="$PROJECT_DIR$/spring-maven-dao/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/spring-maven-dao/src/main/java/com/ccc/dao/impl/UserMapperImpl.java" afterPath="$PROJECT_DIR$/spring-maven-dao/src/main/java/com/ccc/dao/impl/UserMapperImpl.java" />
-      <change beforePath="$PROJECT_DIR$/spring-maven-dao/src/main/resources/druid.properties" afterPath="$PROJECT_DIR$/spring-maven-dao/src/main/resources/druid.properties" />
-      <change beforePath="$PROJECT_DIR$/spring-maven-dao/src/main/resources/spring-dao.xml" afterPath="$PROJECT_DIR$/spring-maven-dao/src/main/resources/spring-dao.xml" />
-      <change beforePath="$PROJECT_DIR$/spring-maven-dao/src/main/resources/spring-mybatis.xml" afterPath="$PROJECT_DIR$/spring-maven-dao/src/main/resources/spring-mybatis.xml" />
-      <change beforePath="$PROJECT_DIR$/spring-maven-dao/src/test/java/com/ccc/dao/impl/UserMapperImplTest.java" afterPath="$PROJECT_DIR$/spring-maven-dao/src/test/java/com/ccc/dao/impl/UserMapperImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -469,6 +458,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -715,6 +705,14 @@
       <updated>1592707318740</updated>
       <workItem from="1592707327506" duration="19630000" />
     </task>
+    <task id="LOCAL-00001" summary="6-23测试Mybatis结合数据源">
+      <created>1592930298884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592930298884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -750,7 +748,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19883000" />
+    <option name="totallyTimeSpent" value="19941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -846,6 +844,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="6-23测试Mybatis结合数据源" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-23测试Mybatis结合数据源" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
