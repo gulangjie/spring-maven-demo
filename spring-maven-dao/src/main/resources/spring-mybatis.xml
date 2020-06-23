@@ -20,23 +20,23 @@
     加入大baseid即如：<select id="findeStudentList" resultMap="r1" databaseId="development">
     select * from student ;
 </select>-->
-    <environments default="development">
-        <environment id="development"><!--环境-->
-            <transactionManager type="JDBC"/><!--事务管理器-->
-            <dataSource type="POOLED"><!--数据源-->
-                <property name="driver" value="${mysql.driver}"/>
-                <property name="url" value="${mysql.url}"/>
-                <property name="username" value="${mysql.username}"/>
-                <property name="password" value="${mysql.password}"/>
-            </dataSource>
-        </environment>
-    </environments>
-    <mappers>
-        <!--&lt;!&ndash;<mapper resource="com/yujian/model/StudentMapper.xml"/>-->
-        <!--<mapper resource="com.ccc.dao.sqlMapper.UserMapper.xml"/>-->
-        <!--设置反射来源-->
-        <!--或者用下面这种，可以自动查询包下所有文件-->
-        <package name="com.ccc.dao.sqlMapper"></package>
-        <!--<mapper class="com.yujian.model.StudentMapper"></mapper>这种也可以-->
-    </mappers>
+    <!--<environments default="development">-->
+        <!--<environment id="development">&lt;!&ndash;环境&ndash;&gt;-->
+            <!--<transactionManager type="JDBC"/>&lt;!&ndash;事务管理器&ndash;&gt;-->
+            <!--<dataSource type="POOLED">&lt;!&ndash;数据源&ndash;&gt;-->
+                <!--<property name="driver" value="${mysql.driver}"/>-->
+                <!--<property name="url" value="${mysql.url}"/>-->
+                <!--<property name="username" value="${mysql.username}"/>-->
+                <!--<property name="password" value="${mysql.password}"/>-->
+            <!--</dataSource>-->
+        <!--</environment>-->
+    <!--</environments>-->
+    <!--<mappers>-->
+        <!--&lt;!&ndash;&lt;!&ndash;<mapper resource="com/yujian/model/StudentMapper.xml"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<mapper resource="com.ccc.dao.sqlMapper.UserMapper.xml"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;设置反射来源&ndash;&gt;-->
+        <!--&lt;!&ndash;或者用下面这种，可以自动查询包下所有文件&ndash;&gt;-->
+        <!--<package name="com.ccc.dao.sqlMapper"></package>-->
+        <!--&lt;!&ndash;<mapper class="com.yujian.model.StudentMapper"></mapper>这种也可以&ndash;&gt;-->
+    <!--</mappers>-->
 </configuration>

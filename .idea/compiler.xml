@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-maven-common" />
         <module name="spring-maven-dao" />
         <module name="spring-maven-model" />
         <module name="spring-maven-service" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-maven-common" target="1.5" />
       <module name="spring-maven-dao" target="1.5" />
       <module name="spring-maven-demo" target="1.5" />
       <module name="spring-maven-model" target="1.5" />

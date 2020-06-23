@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-maven-common/spring-maven-common.iml" filepath="$PROJECT_DIR$/spring-maven-common/spring-maven-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-maven-dao/spring-maven-dao.iml" filepath="$PROJECT_DIR$/spring-maven-dao/spring-maven-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-maven-demo.iml" filepath="$PROJECT_DIR$/spring-maven-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-maven-model/spring-maven-model.iml" filepath="$PROJECT_DIR$/spring-maven-model/spring-maven-model.iml" />
