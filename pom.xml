@@ -18,7 +18,7 @@
     <properties>
         <module.version>1.0-SNAPSHOT</module.version>
         <spring.version>4.3.6.RELEASE</spring.version>
-        <mysql.version>8.0.19</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <dbcp.version>1.4</dbcp.version>
         <pool.version>1.6</pool.version>
         <mybatis.version>3.5.5</mybatis.version>
